@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import {
     View,
     Text,
-    Keyboard,
     TextInput
 } from 'react-native'
 
@@ -19,10 +18,6 @@ class Profile extends React.Component {
                 <TextInput value={ this.props.message } onChangeText={ (text) => this.props.update(text) }/>
             </View>
         )
-    }
-
-    componentDidMount(){
-        Keyboard.dismiss()
     }
 
 }
