@@ -1,0 +1,5 @@
+export const NAVIGATE_SCREEN = 'NAVIGATE_SCREEN'
+export const NAVIGATION_BACK = 'NAVIGATION_BACK'
+
+//TEST
+export const SET_MESSAGE = 'SET_MESSAGE'
